@@ -102,7 +102,7 @@ javac *.java
 ### 3️⃣ Executar
 
 ```
-java Main
+java main 
 ```
 
 ---
