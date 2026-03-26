@@ -15,8 +15,3 @@ Aqui estão organizados os trabalhos práticos, exercícios e implementações r
 - **Carlos Huan Celestino de Brito** — 2320478  
 - **Lucas de Vasconcelos Barreira Carvalho** — 2410424  
 
-
-
----
-
-✏️ **Disciplina:** Grafos
