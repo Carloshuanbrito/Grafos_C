@@ -1,4 +1,4 @@
-# 🌎 **Grafos - Região Nordeste do Brasil**
+#  **Grafos - Região Nordeste do Brasil**
 
 ## 👥 **Grupo C**
 
@@ -19,7 +19,7 @@ A proposta é modelar um grafo representando os estados da região Nordeste do B
 
 ---
 
-## 🧠 **O que representa o grafo**
+##  **O que representa o grafo**
 
 Neste problema:
 
