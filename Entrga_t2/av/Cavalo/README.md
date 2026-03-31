@@ -133,7 +133,7 @@ O arquivo segue o padrão algs4:
 ### 1️⃣ Clonar o repositório
 
 ```
-git clone https://github.com/netoeugenio/t2-cavalo.git
+https://github.com/netoeugenio/Grafos_C/tree/main/Entrga_t2/av/Cavalo.git
 ```
 
 ### 2️⃣ Entrar na pasta do projeto
