@@ -109,7 +109,7 @@ Classe principal:
 
 ---
 
-## 📥 Formato do Arquivo de Entrada
+##  Formato do Arquivo de Entrada
 
 O arquivo segue o padrão algs4:
 
@@ -128,63 +128,20 @@ O arquivo segue o padrão algs4:
 
 ---
 
-## ▶️ Como rodar o projeto
+##  Como clonar e executar o projeto
 
-### 1️⃣ Clonar o repositório
+```bash
+# 1️⃣ Clonar o repositório
+git clone https://github.com/netoeugenio/Grafos_C.git
 
-```
-https://github.com/netoeugenio/Grafos_C/tree/main/Entrga_t2/av/Cavalo.git
-```
+# 2️⃣ Acessar a pasta do projeto
+cd Grafos_C/Entrga_t2/av/Cavalo
 
-### 2️⃣ Entrar na pasta do projeto
-
-```
-cd t2-cavalo
+# 3️⃣ Entrar na pasta do código
 cd src
-```
 
-### 3️⃣ Executar o programa
-
-```
+# 4️⃣ Executar o programa
 python main.py
 ```
-
----
-
-## 💻 Exemplo de saída
-
-```
-Lista de adjacencia:
-0: 7 5
-1: 8 6
-2: 7 3
-3: 8 2
-4:
-5: 6 0
-6: 5 1
-7: 2 0
-8: 3 1
-
-Componentes conexas: 2
-Vertices da componente 0: 0 1 2 3 5 6 7 8
-Vertices da componente 1: 4
-
-Distancia minima entre (0,0) e (2,2): 4
-
-O grafo possui ciclo: Sim
-Um ciclo encontrado: 0 5 6 1 8 3 2 7 0
-```
-
----
-
-## 📊 Complexidade dos Algoritmos
-
-- **BFS (Caminho mínimo)**  
-  Tempo → `O(V + E)`  
-  Espaço → `O(V)`
-
-- **DFS (Componentes conexas e ciclo)**  
-  Tempo → `O(V + E)`  
-  Espaço → `O(V)`
 
 ---
