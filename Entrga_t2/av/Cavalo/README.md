@@ -135,7 +135,7 @@ O arquivo segue o padrão algs4:
 git clone https://github.com/netoeugenio/Grafos_C.git
 
 # 2️⃣ Acessar a pasta do projeto
-cd Grafos_C/Entrga_t2/av/Cavalo
+cd Grafos_C/Entrga_t2/Cavalo
 
 # 3️⃣ Entrar na pasta do código
 cd src
