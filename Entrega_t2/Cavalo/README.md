@@ -8,6 +8,9 @@ Lucas de Vasconcelos Barreira Carvalho — 2410424
 
 ---
 
+🎥 **Vídeo explicativo do projeto:**  
+https://www.youtube.com/watch?v=jQPCcL3kYCA
+
 ##  Descrição do Projeto
 
 Este projeto foi desenvolvido para a disciplina de Grafos.
