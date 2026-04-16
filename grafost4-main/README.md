@@ -8,7 +8,7 @@
 - Lucas de Vasconcelos Barreira Carvalho — 2410424  
 
 🎥 **Vídeo explicativo do projeto:**  
-https://youtu.be/9czh8XwxNc0?si=dTKlWpv6kaBuPvdD
+https://youtu.be/bFF4IUvpamA?si=1zNN33nRVsVV5q96
 
 ---
 
