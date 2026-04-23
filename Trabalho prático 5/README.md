@@ -77,7 +77,9 @@ Classe principal do programa:
 ---
 Cada linha representa uma conexão entre estados
 ##  Como rodar o projeto
-1️⃣ Entrar na pasta do código
+1️⃣
+Entrar na pasta do código
 cd projeto-grafos
-2️⃣ Executar o programa
+2️⃣ 
+Executar o programa
 python main.py dados/brasil.txt
