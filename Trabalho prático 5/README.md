@@ -37,7 +37,7 @@ Representa o grafo:
 
 Métodos principais:
 
-- `add_edge(v, w)` → adiciona uma aresta  
+- `add_edge(v, w)` → adiciona uma aresta
 - `neighbors(v)` → retorna vizinhos  
 - `degree(v)` → retorna o grau do vértice  
 
@@ -76,10 +76,11 @@ Classe principal do programa:
 
 ---
 Cada linha representa uma conexão entre estados
+
 ##  Como rodar o projeto
-1️⃣
-Entrar na pasta do código
+
+### 1️⃣ Entrar na pasta do código
+
+```bash
 cd projeto-grafos
-2️⃣ 
-Executar o programa
 python main.py dados/brasil.txt
