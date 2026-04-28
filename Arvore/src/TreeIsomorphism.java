@@ -15,12 +15,14 @@ public class TreeIsomorphism {
         return graph;
     }
 
-    // =========================
-    // 1. VALIDAR ÁRVORE
-    // =========================
     public boolean isTree() {
         int V = graph.V();
         int E = graph.E();
+
+        if (V == 0) {
+            validationMessage = "Nao eh arvore: grafo vazio";
+            return false;
+        }
 
         if (E != V - 1) {
             validationMessage = "Nao eh arvore: numero de arestas diferente de V-1";
@@ -54,18 +56,22 @@ public class TreeIsomorphism {
         return validationMessage;
     }
 
-    // =========================
-    // 2. CENTROS
-    // =========================
     public int[] getCenters() {
         int n = graph.V();
-        int[] degree = new int[n];
+        if (n == 0) {
+            return new int[0];
+        }
 
+        int[] degree = new int[n];
         Queue<Integer> leaves = new LinkedList<>();
 
         for (int i = 0; i < n; i++) {
-            for (int w : graph.adj(i)) degree[i]++;
-            if (degree[i] <= 1) leaves.add(i);
+            for (int w : graph.adj(i)) {
+                degree[i]++;
+            }
+            if (degree[i] <= 1) {
+                leaves.add(i);
+            }
         }
 
         int processed = leaves.size();
@@ -90,14 +96,13 @@ public class TreeIsomorphism {
 
         int[] centers = new int[leaves.size()];
         int i = 0;
-        for (int c : leaves) centers[i++] = c;
+        for (int c : leaves) {
+            centers[i++] = c;
+        }
 
         return centers;
     }
 
-    // =========================
-    // 3. CODIFICAÇÃO CANÔNICA
-    // =========================
     public String getCanonicalEncoding() {
         if (!isTree()) {
             throw new IllegalStateException("Grafo nao eh arvore. Nao pode codificar.");
@@ -126,7 +131,9 @@ public class TreeIsomorphism {
         Collections.sort(labels);
 
         StringBuilder sb = new StringBuilder();
-        for (String s : labels) sb.append(s);
+        for (String s : labels) {
+            sb.append(s);
+        }
 
         return "(" + sb.toString() + ")";
     }
